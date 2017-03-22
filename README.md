@@ -9,7 +9,7 @@ tidy dataset</p>
 <ol>
 <li>readDatasets() is used to read all the training and testing Datasets</li>
 <li>mergeDatasets() is used to merge both training and testing Datasets</li>
-<li>descActivity() is used to replace descriptive labels to the activities</li>
+<li>descActivity() is used to replace activity values with descriptive labels (activities names)</li>
 <li>descVariables() is used to add a header row with variable names to the dataset</li>
 <li>dataExtraction() is used to extract columns which contains reading for mean and standard deviation</li>
 <li>formDataset() is used to create a new dataset which contains the average of all the variables</li>

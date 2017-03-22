@@ -53,7 +53,7 @@ descActivity <- function(mData)
                fill = T,
                header = F)
   
-  #replaces the activity labels for the corressponding values
+  #replaces the activity labels with the corressponding values
   gsub(pattern = "1",
        replacement = activityData[1, 2],
        x = mData[, 2]) -> mData[, 2]

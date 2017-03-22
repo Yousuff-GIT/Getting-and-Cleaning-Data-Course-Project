@@ -44,7 +44,7 @@ mergeDatasets <- function(training, testing)
   descActivity(mergeData)
 }
 
-#descActivity() is used to replace descriptive labels to activities names
+#descActivity() is used to replace activity values with descriptive labels (activities names)
 descActivity <- function(mData)
 {
   #reads the list of descriptive labels for activities
